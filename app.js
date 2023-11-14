@@ -132,7 +132,7 @@ mongoose
   .then(result => {
     // https.createServer({key: privateKey, cert: certificate},app)
     // .listen(process.env.PORT || 3000);
-    app.listen(process.env.PORT || 3000);
+    app.listen(3000);
   })
   .catch(err => {
     console.log(err);
