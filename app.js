@@ -137,3 +137,6 @@ mongoose
   .catch(err => {
     console.log(err);
   });
+
+
+  // NODE_ENV=production MONGO_USER=nhatnguyen MONGO_PASSWORD=nhatnguyen MONGO_DEFAULT_DATABASE=shop 
